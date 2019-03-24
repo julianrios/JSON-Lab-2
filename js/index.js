@@ -11,9 +11,9 @@ request.onreadystatechange = function() {
 			var movieData = jsonFile.data[i];
 			var output = "";
 			if(movieData[10] === "Golden Gate Bridge") {
-				output += movieData[8] + " ";
-				output += movieData[9] + " ";
-				output += movieData[12] + " ";
+				output += movieData[8] + "&nbsp&nbsp&nbsp" + " | ";
+				output += movieData[9] + "&nbsp&nbsp&nbsp" + " | ";
+				output += movieData[12] + "&nbsp&nbsp&nbsp";
 				output += "<br>"
 			}
 			// console.log(movieData);
